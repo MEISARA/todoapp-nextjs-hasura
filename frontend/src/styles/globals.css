@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    @apply min-h-screen flex flex-col bg-gray-100 pt-16 pb-16 
+  }
+}
+@layer components {
+  .bg-todo-high {
+    background-color: #fc6e40;
+
+  }
+  .bg-todo-normal {
+    background-color: #4098ea;
+  }
+  .bg-todo-done {
+    background-color: #00af3a;
+  }
+}

@@ -1,0 +1,19 @@
+actions:
+  - name: login
+    definition:
+      kind: synchronous
+      handler: http://auth:3001/api/login
+    comment: login
+  - name: register
+    definition:
+      kind: synchronous
+      handler: http://auth:3001/api/register
+    comment: register
+custom_types:
+  enums: []
+  input_objects: []
+  objects:
+    - name: User
+    - name: RegisterOutput
+    - name: LoginOutput
+  scalars: []
